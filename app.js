@@ -60,8 +60,8 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     let sumOf = sum(a,b);
     let sumTotal = sum(sumOf[0], c);
-    let productOf = testMultiply(a,b);
-    let productTotal = testMultiply(productOf[0], c);
+    let productOf = multiply(a,b);
+    let productTotal = multiply(productOf[0], c);
     let sumMultiplyArray = [sumTotal[0], productTotal[0], a + ' and ' + b + ' and ' + c + ' sum to ' + sumTotal[0] + '.', 'The product of ' + a + ' and ' + b + ' and ' + c + ' is ' + productTotal[0] + '.'];
     // console.log(sumMultiplyArray);
      return sumMultiplyArray;
